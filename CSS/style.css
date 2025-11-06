@@ -1,4 +1,21 @@
-html, body {
+:root{
+--color11 : #8a443d ;
+--color12: #a76b64 ;
+--color13: #c4938a ;
+--color14: #e2bab1 ;
+--color15: #ffe2d7 ;
+--color1: #833f39 ;
+--color2: #712f2a ;
+--color3: #5f1f1c ;
+--color4 :#4e100e ;
+--color5 :#3c0000 ;
+--color6 :#4424d4 ;
+--color7 :#331bc7 ;
+--color8 :#2212ba ;
+--color9 :#1109ae ;
+--color10:#0000a1;
+}
+ body {
   height: 100%;
 }
 
