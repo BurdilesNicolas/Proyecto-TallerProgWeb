@@ -15,7 +15,22 @@
 --color9 :#1109ae ;
 --color10:#0000a1;
 }
- body {
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- MAIN crece para empujar el footer --- */
+main {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+body {
   height: 100%;
 }
 
