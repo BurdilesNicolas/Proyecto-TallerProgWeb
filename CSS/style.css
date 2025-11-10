@@ -406,4 +406,34 @@ footer {
   
 }
 
+.form-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.form-carrito input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-carrito button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-carrito button:hover {
+  background-color: #444;
+}
+
+
 
