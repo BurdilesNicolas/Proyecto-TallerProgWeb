@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+.comu{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.list{
+     list-style-type: none;
+     margin-left: 0%;
+}
