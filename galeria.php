@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="CSS/fijo.css">
+    <link rel="stylesheet" href="CSS/galeria.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>GUITAR<span>HERO</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="galeria.php">Galeria</a></li>
+                 <li><a href="crud_reviews/reviews.php">Reseñas</a></li>
+                <li><a href="contactos.php">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Galería</h1>
+
+        <div class="galeria">
+            <div class="caja">
+                <div class="info">
+                    Caja 1: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 2: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 3: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 4: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 5: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 6: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 7: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 8: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 9: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 10: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 11: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 12: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 13: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 14: Descripción o información
+                </div>
+            </div>
+            <div class="caja">
+                <div class="info">
+                    Caja 15: Descripción o información
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 GuitarHero| Dulce de leche</p>
+    </footer>
+</body>
+
+</html>

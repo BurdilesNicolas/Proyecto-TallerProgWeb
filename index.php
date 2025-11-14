@@ -18,9 +18,9 @@
     <nav>
       <ul>
         <li><a href="index.php">Inicio</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="galeria.php">Galeria</a></li>
         <li><a href="crud_reviews/reviews.php">Reseñas</a></li>
-        <li><a href="contactos.html">Contacto</a></li>
+        <li><a href="contactos.php">Contacto</a></li>
       </ul>
     </nav>
   </header>
