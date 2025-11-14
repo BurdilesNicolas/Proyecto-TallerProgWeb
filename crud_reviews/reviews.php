@@ -31,17 +31,15 @@ $resultado = mysqli_query($conn, "SELECT * FROM Cliente");
 <table class="table table-striped mx-3 p-2" style="width: 800px">
     <thead>
         <tr>
-            <th>ID</th>
-            <th>Nombre</th>
+            <th>Nombre de Usuario</th>
             <th>Opinión</th>
-            <th>Acciones</th>
+            <th>Opciones</th>
         </tr>
     </thead>
     <tbody>
 
     <?php while ($fila = mysqli_fetch_assoc($resultado)) { ?>
         <tr>
-            <td><?= $fila['id_cliente'] ?></td>
             <td><?= $fila['nombre'] ?></td>
             <td><?= $fila['opinion'] ?></td>
             <td>
