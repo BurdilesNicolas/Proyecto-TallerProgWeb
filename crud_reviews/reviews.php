@@ -1,0 +1,45 @@
+<?php
+require "db.php";
+$resultado = mysqli_query($conn, "SELECT * FROM Cliente");
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Reseñas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<h1 class="m-3">Lista de Reseñas</h1>
+
+<table class="table table-striped mx-3 p-2" style="width: 800px">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Opinión</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    <?php while ($fila = mysqli_fetch_assoc($resultado)) { ?>
+        <tr>
+            <td><?= $fila['id_cliente'] ?></td>
+            <td><?= $fila['nombre'] ?></td>
+            <td><?= $fila['opinion'] ?></td>
+            <td>
+                <a href="editar.php?id=<?= $fila['id_cliente'] ?>">Editar</a> |
+                <a href="eliminar.php?id=<?= $fila['id_cliente'] ?>" onclick="return confirm('¿Seguro?')">Eliminar</a>
+            </td>
+        </tr>
+    <?php } ?>
+
+    </tbody>
+</table>
+
+<a class="btn btn-outline-dark m-3" href="agregar.php">Agregar Reseña</a>
+
+</body>
+</html>
