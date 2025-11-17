@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guitarra SG Vintage</title>
   <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/fijo.css">
 </head>
 <body>
   <header>
@@ -18,14 +19,14 @@
         <li><a href="#">Consultas</a></li>
         <li><a href="contactos.html">Contacto</a></li>
       </ul>
-        <nav>
-    <a href="index.php">Inicio</a>
-    <a href="ver_carrito.php">🛒 Ver carrito</a>
-  </nav>
     </nav>
   </header>
 
   <main class="detalle-guitarra">
+            <nav>
+    <a href="index.php">Inicio</a>
+    <a href="ver_carrito.php">🛒 Ver carrito</a>
+  </nav>
     <div class="contenedor-producto">
 
       <div class="imagenes">

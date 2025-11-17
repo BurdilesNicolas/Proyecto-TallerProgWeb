@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>contactos</title>
-  <link rel="stylesheet" href="CSS/contactos.css">
+  <link rel="stylesheet" href="CSS/contac.css">
   <link rel="stylesheet" href="CSS/fijo.css">
-
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 
 <body>

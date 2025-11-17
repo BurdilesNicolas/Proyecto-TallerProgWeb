@@ -9,7 +9,9 @@ $resultado = mysqli_query($conn, "SELECT * FROM Cliente");
     <title>Lista de Reseñas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/fijo.css">
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
     <header>
