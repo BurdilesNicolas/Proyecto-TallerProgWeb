@@ -1,0 +1,112 @@
+/* Fuente general */
+body {
+    font-family: "Raleway", sans-serif;
+    background: #f2f2f7;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Título */
+.titulo {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+/* GRID DE RESEÑAS */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 25px;
+}
+
+/* Tarjeta */
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Usuario */
+.review-user h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Texto */
+.review-text {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+    min-height: 60px;
+}
+
+/* Botones */
+.review-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-add {
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-edit {
+    background: #0095f1ff;
+    color: white;
+}
+
+.btn-edit:hover {
+    background: #1d3557;
+}
+
+.btn-delete {
+    background: #e63946;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #a4161a;
+}
+
+.btn-add {
+    background: #111;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.btn-add:hover {
+    background: #e63946;
+}
+.add-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

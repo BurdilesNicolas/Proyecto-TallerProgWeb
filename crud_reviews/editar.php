@@ -19,29 +19,51 @@ if (!$fila = mysqli_fetch_assoc($resultado)) {
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Editar Reseña</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/fijo.css">
+    <link rel="stylesheet" href="../CSS/review_form.css">
+
 </head>
 <body>
-    <div class="container mt-4" style="max-width: 600px;">
-        <h1>Editar Reseña</h1>
+
+<header class="header">
+    <div class="logo">
+        <h1>GUITAR<span>HERO</span></h1>
+    </div>
+</header>
+
+<main class="form-container">
+    <div class="form-card">
+        <h2>Editar Reseña</h2>
+
         <form action="actualizar.php" method="POST">
+
             <input type="hidden" name="id_cliente" value="<?= $fila['id_cliente'] ?>">
-            
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" id="nombre" name="nombre" class="form-control" value="<?= htmlspecialchars($fila['nombre']) ?>" required>
+
+            <div class="input-group">
+                <label>Nombre del Usuario</label>
+                <input type="text" name="nombre" value="<?= htmlspecialchars($fila['nombre']) ?>" required>
             </div>
-            
-            <div class="mb-3">
-                <label for="opinion" class="form-label">Opinión</label>
-                <input type="text" id="opinion" name="opinion" class="form-control" value="<?= htmlspecialchars($fila['opinion']) ?>" required>
+
+            <div class="input-group">
+                <label>Opinión</label>
+                <textarea name="opinion" rows="4" required><?= htmlspecialchars($fila['opinion']) ?></textarea>
             </div>
-            
-            <button type="submit" class="btn btn-primary">Actualizar</button>
-            <a href="reviews.php" class="btn btn-secondary">Cancelar</a>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn-save">Actualizar</button>
+                <a href="reviews.php" class="btn-cancel">Cancelar</a>
+            </div>
+
         </form>
     </div>
+</main>
+
+<footer class="footer">
+    <p>© 2025 GuitarHero | Dulce de leche</p>
+</footer>
+
 </body>
 </html>
