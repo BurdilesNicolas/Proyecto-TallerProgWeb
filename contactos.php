@@ -31,7 +31,9 @@
       <h1 class="comu">Comunicate con nosotros</h1>
          <p>Nuestras Redes</p>
           <ul class="list">
-          <li>Intagram</li>
+          <li>
+            <img src="img/Instagram_logo_2022.svg"> <a href="https://www.instagram.com/fender/">Intagram</a>
+          </li>
           <li>Facebook</li>
           <li>MySpace</li>
           </ul>
