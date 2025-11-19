@@ -17,6 +17,7 @@
     <div class="logo">
       <h1>GUITAR<span>WORLD</span></h1>
     </div>
+    <p>Nuestras Redes</p>
     <nav>
       <ul>
         <li><a href="index.php">Inicio</a></li>
@@ -27,21 +28,37 @@
     </nav>
   </header>
   <main>
-    <section>
       <h1 class="comu">Comunicate con nosotros</h1>
-         <p>Nuestras Redes</p>
-          <ul class="list">
-          <li>
-            <img src="img/Instagram_logo_2022.svg"> <a href="https://www.instagram.com/fender/">Intagram</a>
-          </li>
-          <li>Facebook</li>
-          <li>MySpace</li>
-          </ul>
-    </section>
+          
+         <div class="parent">
+            <div class="caja">
+              <h3>Instagram</h3>
+             <a href="https://www.instagram.com/fender/"><img src="img/Instagram_logo_2022.svg">
+             </a>
+            </div>
+            <div class="caja">
+              <h3>Facebook</h3>
+             <a href="https://www.facebook.com/Fender/"><img src="img/faceboologo.png">
+             </a>
+            </div> 
+            <div class="caja">
+              <h3>Tik Tok</h3>
+             <a href="https://www.tiktok.com/@fender"><img src="img/tiktoklogo2.png">
+             </a>
+            </div>
+            <div class="caja">
+              <h3>X</h3>
+             <a href="https://x.com/Fender"><img src="img/logotwiter.avif">
+             </a>
+            </div> 
+         </div> 
+    
     <section>
-    <h2> <a href="">Socios</a> </h2>
-    </section>
-    <h5>FORMULARIO CRUD</h5>           
+      <h3>Socios</h3>
+      <a href="https://intl.fender.com/">
+        <img src="img/fendersocio.png" alt="Fender" title="Fender" width="120" height="120">
+      <a>
+    </section>          
   </main>
   <footer>
     <p>© 2025 GuitarWorld | Pasión por las cuerdas</p>
