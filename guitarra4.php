@@ -29,16 +29,16 @@
     <div class="contenedor-producto">
 
       <div class="imagenes">
-        <img src="img/SGM01U8CH1_azul.webp" alt="Guitarra SG Vintage">
-        <img src="img/SGM01U8CH1_azul2.webp" alt="Detalle cuerpo guitarra">
+        <img src="img/j45 faded1.webp" alt="Guitarra SG Vintage">
+        <img src="img/j45 faded 2.webp" alt="Detalle cuerpo guitarra">
       </div>
 
       <div class="info-producto">
-        <h2>Gibson SG Modern, Blueberry Fade</h2>
+        <h2>Gibson J-45 50s Faded, Vintage Sunburst</h2>
         <p class="etiqueta">Producto exclusivo</p>
-        <p class="precio">€2.699</p>
+        <p class="precio">€2.499</p>
 
-        <p class="acabado">Acabado: Blueberry Fade</p>
+        <p class="acabado">Vintage Sunburst</p>
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
@@ -56,12 +56,11 @@
     </div>
 
     <section class="descripcion">
-      <h3>La estética y el tacto icónicos de SG™</h3>
+      <h3>A satin-finished Workhorse with an undeniable vintage vibe that’s ready to get to work on your music</h3>
       <p>
-Esta versión de la amada "Solid Guitar" (Guitarra sólida) se ha actualizado de forma ingeniosa para maximizar la resonancia y el sustain.
- El icónico cuerpo de doble cutaway está elaborado con una exquisita tapa de arce en relieve AA y un fondo de caoba: una combinación resonante inspirada en
-  el monstruo de los tonos, la Les Paul™. El auténtico mástil de ébano de radio compuesto (integrado con espectaculares trapezoides de madreperla) tiene un perfil 
-  de contorno SlimTaper™ asimétrico y un tallado en el mástil para tener una velocidad y una destreza incomparables hasta el traste 24. Unas pastillas BurstBucker PRO™
+The J-45™ is Gibson’s best-selling acoustic guitar model of all time. Nicknamed “The Workhorse,” it was first introduced 
+in 1942 and has been a popular choice among guitar players worldwide ever since. It is considered the most widely recorded
+ guitar in history and has been used onstage by countless artists across a wide range of musical genres.
       </p>
     </section>
   </main>

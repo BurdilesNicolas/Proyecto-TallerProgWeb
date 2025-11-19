@@ -45,59 +45,63 @@
 
   <div class="galeria">
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="SG Standard 61 Stop Bar">
+      <img src="img/SGM01U8CH1_azul.webp" alt="SG Standard">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>SG Standard '61 Stop Bar, Exclusive</h3>
+        <h3>Gibson SG Modern, Blueberry Fade</h3>
         <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€1.999</p>
+        <p class="color">Blueberry Fade</p>
+        <p class="precio">€2.699</p>
   <a href="guitarra.php?id=1"><button class="ver-mas">Ver más</button></a>
 
       </div>
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Firebird Platypus">
+      <img src="img/explorer1verde.webp" alt="Explorer 80s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Firebird Platypus, Exclusive</h3>
+        <h3>Gibson Explorer 80s, British Racing Green, Exclusive</h3>
         <p class="marca">Gibson</p>
         <p class="color">British Racing Green</p>
         <p class="precio">€2.499</p>
+          <a href="guitarra2.php?id=1"><button class="ver-mas">Ver más</button></a>
       </div>
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Explorer 80s">
+      <img src="img/es gibson1.webp" alt="Explorer 80s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Explorer 80s, Exclusive</h3>
+        <h3>Gibson ES-335 Custom Color, Goldtop, Exclusive</h3>
         <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
+        <p class="color">Goldtop</p>
+        <p class="precio">€3.599</p>
+          <a href="guitarra3.php?id=1"><button class="ver-mas">Ver más</button></a>
       </div>
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/j45 faded1.webp" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Flying V 70s, Exclusive</h3>
+        <h3>Gibson J-45 50s Faded, Vintage Sunburst</h3>
         <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
+        <p class="color">Vintage Sunburst</p>
         <p class="precio">€2.499</p>
+          <a href="guitarra4.php?id=1"><button class="ver-mas">Ver más</button></a>
       </div>
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/les paul 1.webp" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Flying V 70s, Exclusive</h3>
+        <h3>Gibson Les Paul Junior Faded, Tobacco Burst Satin, Exclusive</h3>
         <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
+        <p class="color">Tobacco Burst Satin </p>
+        <p class="precio">€1.399</p>
+          <a href="guitarra5.php?id=1"><button class="ver-mas">Ver más</button></a>
       </div>
     </div>
   </div>

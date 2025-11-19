@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="logo">
-      <h1>GUITAR<span>HERO</span></h1>
+      <img src="img/logo guitarhero.png" width="250">
     </div>
     <nav>
       <ul>
@@ -29,16 +29,16 @@
     <div class="contenedor-producto">
 
       <div class="imagenes">
-        <img src="img/SGM01U8CH1_azul.webp" alt="Guitarra SG Vintage">
-        <img src="img/SGM01U8CH1_azul2.webp" alt="Detalle cuerpo guitarra">
+        <img src="img/les paul 1.webp" alt="Guitarra SG Vintage">
+        <img src="img/les paul 2.webp" alt="Detalle cuerpo guitarra">
       </div>
 
       <div class="info-producto">
-        <h2>Gibson SG Modern, Blueberry Fade</h2>
+        <h2>Gibson Les Paul Junior Faded, Tobacco Burst Satin, Exclusive</h2>
         <p class="etiqueta">Producto exclusivo</p>
-        <p class="precio">€2.699</p>
+        <p class="precio">€1.399</p>
 
-        <p class="acabado">Acabado: Blueberry Fade</p>
+        <p class="acabado">Tobacco Burst Satin </p>
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
@@ -56,12 +56,12 @@
     </div>
 
     <section class="descripcion">
-      <h3>La estética y el tacto icónicos de SG™</h3>
+      <h3>Sin adornos, solo emociones</h3>
       <p>
-Esta versión de la amada "Solid Guitar" (Guitarra sólida) se ha actualizado de forma ingeniosa para maximizar la resonancia y el sustain.
- El icónico cuerpo de doble cutaway está elaborado con una exquisita tapa de arce en relieve AA y un fondo de caoba: una combinación resonante inspirada en
-  el monstruo de los tonos, la Les Paul™. El auténtico mástil de ébano de radio compuesto (integrado con espectaculares trapezoides de madreperla) tiene un perfil 
-  de contorno SlimTaper™ asimétrico y un tallado en el mástil para tener una velocidad y una destreza incomparables hasta el traste 24. Unas pastillas BurstBucker PRO™
+La Gibson Les Paul™ Junior fue presentada por primera vez en 1954 como una guitarra eléctrica de cuerpo sólido, asequible y de alta calidad, diseñada para estudiantes.
+ Comparada con los modelos estándar Les Paul de principios y mediados de los años 50, la Les Paul Junior fue simplificada hasta lo esencial: se eliminaron la tapa tallada 
+ de arce, los ribetes del diapasón y del cuerpo, la segunda pastilla y sus controles, y otros elementos decorativos más elaborados del modelo Les Paul Standard, dejando un 
+ cuerpo de caoba tipo “slab” y una única pastilla, lo que permitía ofrecerla a un precio más accesible para principiantes
       </p>
     </section>
   </main>

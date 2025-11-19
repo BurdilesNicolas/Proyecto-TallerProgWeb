@@ -29,16 +29,16 @@
     <div class="contenedor-producto">
 
       <div class="imagenes">
-        <img src="img/SGM01U8CH1_azul.webp" alt="Guitarra SG Vintage">
-        <img src="img/SGM01U8CH1_azul2.webp" alt="Detalle cuerpo guitarra">
+        <img src="img/explorer1verde.webp" alt="Guitarra SG Vintage">
+        <img src="img/explorer2verde.webp" alt="Detalle cuerpo guitarra">
       </div>
 
       <div class="info-producto">
-        <h2>Gibson SG Modern, Blueberry Fade</h2>
+        <h2>Gibson Explorer 80s, British Racing Green, Exclusive</h2>
         <p class="etiqueta">Producto exclusivo</p>
-        <p class="precio">€2.699</p>
+        <p class="precio">€2.499</p>
 
-        <p class="acabado">Acabado: Blueberry Fade</p>
+        <p class="acabado">British Racing Green</p>
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
@@ -56,12 +56,12 @@
     </div>
 
     <section class="descripcion">
-      <h3>La estética y el tacto icónicos de SG™</h3>
+      <h3>Embraced by the masters of metal and rock</h3>
       <p>
-Esta versión de la amada "Solid Guitar" (Guitarra sólida) se ha actualizado de forma ingeniosa para maximizar la resonancia y el sustain.
- El icónico cuerpo de doble cutaway está elaborado con una exquisita tapa de arce en relieve AA y un fondo de caoba: una combinación resonante inspirada en
-  el monstruo de los tonos, la Les Paul™. El auténtico mástil de ébano de radio compuesto (integrado con espectaculares trapezoides de madreperla) tiene un perfil 
-  de contorno SlimTaper™ asimétrico y un tallado en el mástil para tener una velocidad y una destreza incomparables hasta el traste 24. Unas pastillas BurstBucker PRO™
+When the Explorer™ was first introduced in 1958, it was not an instant hit with players, who at the time may have thought 
+its now-iconic body shape was a bit too modern. However, as the years progressed, guitarists discovered the Explorer’s many
+ charms, and the model became more and more popular. Rockers embraced its futuristic shape and powerful sound by the 1970s,
+  but during the hard-rockin’ 80s, the model came into its own and was adopted by some of the best players of the era.
       </p>
     </section>
   </main>

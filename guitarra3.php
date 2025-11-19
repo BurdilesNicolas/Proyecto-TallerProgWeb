@@ -29,16 +29,16 @@
     <div class="contenedor-producto">
 
       <div class="imagenes">
-        <img src="img/SGM01U8CH1_azul.webp" alt="Guitarra SG Vintage">
-        <img src="img/SGM01U8CH1_azul2.webp" alt="Detalle cuerpo guitarra">
+        <img src="img/es gibson1.webp" alt="Guitarra SG Vintage">
+        <img src="img/es gibson 2.webp" alt="Detalle cuerpo guitarra">
       </div>
 
       <div class="info-producto">
-        <h2>Gibson SG Modern, Blueberry Fade</h2>
+        <h2>Gibson ES-335 Custom Color, Goldtop, Exclusive</h2>
         <p class="etiqueta">Producto exclusivo</p>
-        <p class="precio">€2.699</p>
+        <p class="precio">€3.599</p>
 
-        <p class="acabado">Acabado: Blueberry Fade</p>
+        <p class="acabado">Goldtop</p>
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
@@ -56,12 +56,12 @@
     </div>
 
     <section class="descripcion">
-      <h3>La estética y el tacto icónicos de SG™</h3>
+      <h3>The sweet and soulful semi-hollowbody that’s beloved by players worldwide, now in exciting custom colors</h3>
       <p>
-Esta versión de la amada "Solid Guitar" (Guitarra sólida) se ha actualizado de forma ingeniosa para maximizar la resonancia y el sustain.
- El icónico cuerpo de doble cutaway está elaborado con una exquisita tapa de arce en relieve AA y un fondo de caoba: una combinación resonante inspirada en
-  el monstruo de los tonos, la Les Paul™. El auténtico mástil de ébano de radio compuesto (integrado con espectaculares trapezoides de madreperla) tiene un perfil 
-  de contorno SlimTaper™ asimétrico y un tallado en el mástil para tener una velocidad y una destreza incomparables hasta el traste 24. Unas pastillas BurstBucker PRO™
+The ES-335 is a Gibson ES™ model that has been wowing guitar players all over the world for over six decades. From its introduction in 1958, the Gibson ES-335 set
+ an unmatched standard, and it remains one of the world's most beloved and versatile electric guitars today. Regardless of the styles of music you play, from rock 
+ to blues, from country to metal, the ES-335’s versatility enables you to do them all. This ES-335 is no exception and is now available in exciting custom colors that
+  are sure to get attention.
       </p>
     </section>
   </main>
