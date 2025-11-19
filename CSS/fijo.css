@@ -1,12 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Hace que la página tenga altura completa */
+html, body {
+  height: 100%;
+}
+
+/* Hace que todo el contenido se distribuya verticalmente */
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 /* HEADER */
 header {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: 900;
   background-color: #2b1b12;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
+  padding: 30px 50px;   /* <--- Cambiá esto para ajustar el tamaño */
   flex-wrap: wrap;
 }
 
@@ -36,11 +54,12 @@ nav ul li a {
 nav ul li a:hover {
   color: #d9a760;
 }
-/*footer*/
+
+/* FOOTER SIEMPRE ABAJO */
 footer {
   background-color: #2b1b12;
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin-top: 30px;
+  margin-top: auto;
 }

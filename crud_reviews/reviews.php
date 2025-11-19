@@ -9,6 +9,9 @@ $resultado = mysqli_query($conn, "SELECT * FROM Cliente");
     <title>Reseñas de Usuarios</title>
     <link rel="stylesheet" href="../CSS/reviews.css">
     <link rel="stylesheet" href="../CSS/fijo.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 <body>
 

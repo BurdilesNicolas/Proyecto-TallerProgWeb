@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guitarra SG Vintage</title>
+      <link rel="stylesheet" href="CSS/fijo.css">
   <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/fijo.css">
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 </head>
 <body>
   <header>
@@ -14,19 +17,15 @@
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="#">Consultas</a></li>
-        <li><a href="contactos.html">Contacto</a></li>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="galeria.php">Galería</a></li>
+        <li><a href="crud_reviews/reviews.php">Reseñas</a></li>
+        <li><a href="contactos.php">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="detalle-guitarra">
-            <nav>
-    <a href="index.php">Inicio</a>
-    <a href="ver_carrito.php">🛒 Ver carrito</a>
-  </nav>
     <div class="contenedor-producto">
 
       <div class="imagenes">
@@ -44,14 +43,6 @@
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
           <button class="comprar">Comprar ahora</button>
-          <form action="agregar_carrito.php" method="POST" class="form-carrito">
-  <input type="hidden" name="producto" value="Fender Stratocaster">
-  <input type="hidden" name="precio" value="950.00">
-
-  <label for="cantidad">Cantidad:</label>
-  <input type="number" id="cantidad" name="cantidad" value="1" min="1">
-
-  <button type="submit">Agregar al carrito</button>
 </form>
 
         </div>

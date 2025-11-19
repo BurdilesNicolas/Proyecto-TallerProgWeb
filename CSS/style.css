@@ -271,11 +271,12 @@ footer {
 
 .botones-compra {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   margin-bottom: 25px;
 }
 
 .carrito {
+  width: 50%;
   background-color: #2b1b12;
   color: white;
   border: none;
@@ -292,6 +293,7 @@ footer {
 }
 
 .comprar {
+  width: 50%;
   background-color: #7b61ff;
   color: white;
   border: none;
@@ -326,25 +328,6 @@ footer {
   font-size: 1.5rem;
 }
 
-@media (max-width: 900px) {
-  .contenedor-producto {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imagenes img {
-    width: 100%;
-    max-width: 500px;
-  }
-
-  .info-producto {
-    text-align: center;
-  }
-
-  .botones-compra {
-    justify-content: center;
-  }
-}
 
 
 /* Botón general dentro de las tarjetas */
@@ -370,34 +353,6 @@ footer {
   
 }
 
-.form-carrito {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-  margin-top: 15px;
-}
-
-.form-carrito input[type="number"] {
-  width: 60px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-.form-carrito button {
-  background-color: #222;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.form-carrito button:hover {
-  background-color: #444;
-}
 
 
 
