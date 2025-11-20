@@ -15,7 +15,7 @@
 <body>
   <header>
     <div class="logo">
-      <h1>GUITAR<span>WORLD</span></h1>
+      <img src="img/logo guitarhero.png" width="250">
     </div>
     <p>Nuestras Redes</p>
     <nav>
