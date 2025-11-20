@@ -12,7 +12,7 @@
 
 <header class="header">
     <div class="logo">
-        <h1>GUITAR<span>HERO</span></h1>
+      <img src="../img/logo guitarhero.png" width="250">
     </div>
 </header>
 
