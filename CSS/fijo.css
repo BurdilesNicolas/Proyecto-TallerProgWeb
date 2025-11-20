@@ -38,6 +38,7 @@ header .logo span {
 }
 
 nav ul {
+  font-size: larger;
   display: flex;
   list-style: none;
   gap: 25px;

@@ -67,7 +67,7 @@ main {
 
 /*  SECCIÓN DESTACADOS */
 .destacados {
-  padding: 60px 80px;
+  padding: 10px 40px;
 }
 
 .destacados h2 {
@@ -81,6 +81,7 @@ main {
 
 /*  FILTROS (botones arriba del catálogo) */
 .filtros {
+    outline: none;
   display: flex;
   gap: 15px;
   margin-bottom: 35px;
@@ -88,6 +89,7 @@ main {
 }
 
 .filtros button {
+    outline: none;
   background-color: #f5f0e8;
   border: none;
   border-radius: 20px;
@@ -97,12 +99,13 @@ main {
   transition: background 0.3s, color 0.3s;
 }
 
-.filtros button.activo {
+.filtros button:hover {
+  outline: none;
   background-color: #000;
   color: #fff;
 }
 
-.filtros button:hover {
+button.btn-filtro.activo{
   background-color: #000;
   color: #fff;
 }
@@ -352,7 +355,11 @@ footer {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   
 }
+.filtros a {
+  color: inherit;
+  text-decoration: none;
+}
 
-
-
-
+.filtros a:visited {
+  color: inherit;
+}

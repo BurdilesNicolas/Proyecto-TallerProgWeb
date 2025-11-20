@@ -35,13 +35,13 @@
     <section class="destacados">
   <h2>Destacados</h2>
 
-  <div class="filtros">
-    <button class="activo">Novedades</button>
-    <button>Stratocaster</button>
-    <button>Telecaster</button>
-    <button>Acoustic</button>
-    <button>New Headwear</button>
-  </div>
+<div class="filtros">
+    <button><a href="novedades" class="btn-filtro activo">Novedades</a></button>
+    <button><a href="stratocaster" class="btn-filtro">Stratocaster</a></button>
+    <button><a href="telecaster" class="btn-filtro">Telecaster</a></button>
+    <button><a href="acoustic" class="btn-filtro">Acoustic</a></button>
+    <button><a href="headwear" class="btn-filtro">New Headwear</a></button>
+</div>
 
   <div class="galeria">
     <div class="guitarra">
@@ -107,12 +107,12 @@
   </div>
 </section>
 
-    <section class="destacados">
+    <section id="stratocaster" class="destacados">
   <h2>Stratocasters</h2>
 
   <div class="galeria">
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="SG Standard 61 Stop Bar">
+      <img src="img/str1.png" alt="SG Standard 61 Stop Bar">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>SG Standard '61 Stop Bar, Exclusive</h3>
@@ -123,7 +123,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Firebird Platypus">
+      <img src="img/str2.png" alt="Firebird Platypus">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Firebird Platypus, Exclusive</h3>
@@ -134,7 +134,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Explorer 80s">
+      <img src="img/str 3.avif" alt="Explorer 80s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Explorer 80s, Exclusive</h3>
@@ -145,7 +145,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/str 4.avif" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Flying V 70s, Exclusive</h3>
@@ -156,7 +156,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/str 5.avif" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Flying V 70s, Exclusive</h3>
@@ -169,74 +169,13 @@
   </div>
 </section>
 
-<section class="destacados">
-  <h2>Telecasters</h2>
 
-  <div class="galeria">
-    <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="SG Standard 61 Stop Bar">
-      <div class="info">
-        <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>SG Standard '61 Stop Bar, Exclusive</h3>
-        <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€1.999</p>
-      </div>
-    </div>
-
-    <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Firebird Platypus">
-      <div class="info">
-        <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Firebird Platypus, Exclusive</h3>
-        <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
-      </div>
-    </div>
-
-    <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Explorer 80s">
-      <div class="info">
-        <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Explorer 80s, Exclusive</h3>
-        <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
-      </div>
-    </div>
-
-    <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
-      <div class="info">
-        <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Flying V 70s, Exclusive</h3>
-        <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
-      </div>
-    </div>
-
-    <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
-      <div class="info">
-        <p class="etiqueta">Novedad | Producto exclusivo</p>
-        <h3>Flying V 70s, Exclusive</h3>
-        <p class="marca">Gibson</p>
-        <p class="color">British Racing Green</p>
-        <p class="precio">€2.499</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section class="destacados">
+<section  id="acoustic" class="destacados">
   <h2>Acoustics</h2>
 
   <div class="galeria">
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="SG Standard 61 Stop Bar">
+      <img src="img/acu 1.webp" alt="SG Standard 61 Stop Bar">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>SG Standard '61 Stop Bar, Exclusive</h3>
@@ -247,7 +186,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Firebird Platypus">
+      <img src="img/acu 2.webp" alt="Firebird Platypus">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Firebird Platypus, Exclusive</h3>
@@ -258,7 +197,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Explorer 80s">
+      <img src="img/acu 3.webp" alt="Explorer 80s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Explorer 80s, Exclusive</h3>
@@ -269,7 +208,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/acu 4.webp" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Flying V 70s, Exclusive</h3>
@@ -280,7 +219,7 @@
     </div>
 
     <div class="guitarra">
-      <img src="img/SG_Historic_SGSR64VOCHNM1.webp" alt="Flying V 70s">
+      <img src="img/acu 5.webp" alt="Flying V 70s">
       <div class="info">
         <p class="etiqueta">Novedad | Producto exclusivo</p>
         <h3>Flying V 70s, Exclusive</h3>

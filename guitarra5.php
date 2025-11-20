@@ -42,7 +42,7 @@
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
-          <button class="comprar">Comprar ahora</button>
+          <button class="comprar" ><a href="crud_reviews/reviews.php">Reseñar</a></button>
 </form>
 
         </div>

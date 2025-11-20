@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="logo">
-      <h1>GUITAR<span>HERO</span></h1>
+      <img src="img/logo guitarhero.png" width="250">
     </div>
     <nav>
       <ul>
@@ -42,7 +42,7 @@
 
         <div class="botones-compra">
           <button class="carrito">Añadir al carrito</button>
-          <button class="comprar">Comprar ahora</button>
+          <button class="comprar" ><a href="crud_reviews/reviews.php">Reseñar</a></button>
 </form>
 
         </div>

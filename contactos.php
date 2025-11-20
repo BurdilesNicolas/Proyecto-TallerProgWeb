@@ -17,7 +17,6 @@
     <div class="logo">
       <img src="img/logo guitarhero.png" width="250">
     </div>
-    <p>Nuestras Redes</p>
     <nav>
       <ul>
         <li><a href="index.php">Inicio</a></li>
@@ -61,7 +60,7 @@
     </section>          
   </main>
   <footer>
-    <p>© 2025 GuitarWorld | Pasión por las cuerdas</p>
+    <p>© 2025 GuitarHero| Dulce de leche</p>
   </footer>
 </body>
 

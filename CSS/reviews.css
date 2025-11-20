@@ -35,6 +35,7 @@ body {
 
 /* Tarjeta */
 .review-card {
+    margin-left: 20px;
     background: white;
     padding: 20px;
     padding-right: 20px;
@@ -112,4 +113,33 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px auto;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2b1b12;
+    
+    /* Línea decorativa debajo */
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(90deg, #c49b63, #ffdd95);
+    margin: 12px auto 0;
+    border-radius: 5px;
+}
+
+/* Sombra suave opcional */
+h1 {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
