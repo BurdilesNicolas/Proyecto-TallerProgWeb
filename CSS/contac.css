@@ -1,78 +1,147 @@
+/* ===== Ajustes generales ===== */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
 }
+
+main {
+  flex: 1;
+  padding-bottom: 40px;
+}
+
+.titulo {
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 40px;
+  color: #2b1b12;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.titulo::after {
+  content: "";
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #c49b63, #ffdd95);
+  border-radius: 5px;
+  display: block;
+  margin: 12px auto 0;
+}
+
+/* ===== Redes sociales ===== */
 .parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px 10px;
 }
 
 .caja {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid #8d7f2e;
-    border-radius: 15px;
-    width: 180px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #8d7f2e;
+  border-radius: 15px;
+  width: 180px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
 }
 
 .caja:hover {
-    transform: scale(1.08);
-    background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.08);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.caja img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .caja h3 {
-    color: #8d7f2e;
-    margin-bottom: 10px;
-}
-h3{
-    color: #8d7f2e;
-}
-.caja img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.comu{
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-}
-.list{
-     list-style-type: none;
-     margin-left: 0%;
+  color: #8d7f2e;
 }
 
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.6rem;
-    font-weight: 900;
-    text-align: center;
-    margin: 40px auto;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #2b1b12;
-    
-    /* Línea decorativa debajo */
-    position: relative;
+/* ===== Datos de contacto ===== */
+.datos {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-left: 5px solid #8d7f2e;
+  background: #fffdf5;
 }
 
-h1::after {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 4px;
-    background: linear-gradient(90deg, #c49b63, #ffdd95);
-    margin: 12px auto 0;
-    border-radius: 5px;
+.datos h2 {
+  margin-bottom: 15px;
+  color: #2b1b12;
 }
 
-/* Sombra suave opcional */
-h1 {
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+/* ===== Formulario ===== */
+.formulario-contenedor {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario label {
+  font-weight: 600;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #8d7f2e;
+  border-radius: 8px;
+}
+
+.formulario button {
+  background: #8d7f2e;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background: #6f6222;
+}
+
+/* ===== Mapa ===== */
+.mapa {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.mapa h2 {
+  margin-bottom: 10px;
+  color: #2b1b12;
+}
+
+/* ===== Socios ===== */
+.socios {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #2b1b12;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
 }
